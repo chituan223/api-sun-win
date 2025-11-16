@@ -279,7 +279,7 @@ class TaiXiuPredictor:
     # ===================================
     def _get_taixiu_data(self):
         """Lấy dữ liệu thô từ API bên ngoài."""
-        url = "https://sunwinsaygex-ew87.onrender.com/api/taixiu/sunwin"
+        url = "https://sunwinsaygex-8616.onrender.com/api/taixiu/sunwin"
         try:
             res = requests.get(url, timeout=6)
             if res.status_code == 200:
