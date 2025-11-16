@@ -1,2 +1,2 @@
-flask
-requests
+uvicorn==0.27.1
+websockets==12.0
